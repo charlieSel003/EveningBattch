@@ -15,7 +15,7 @@ import org.testng.annotations.Test;
 public class Annotation {
 	WebDriver driver;
 	@BeforeMethod
-	public void launchbrowser(){
+	public void launchbrowser1234(){
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Kitty\\Downloads\\chromedriver_win32 (3)\\chromedriver.exe");
 		driver=new ChromeDriver();
 		driver.get("https://opensource-demo.orangehrmlive.com/");
